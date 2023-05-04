@@ -1,26 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
 
 .welcome-msg {
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 4rem;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 4rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .welcome-msg-ct {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
 }
 
 .sp1 {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 .sp2 {
-    font-size: 80px;
-    font-weight: 600;
+  font-size: 80px;
+  font-weight: 600;
 }
 
 .middle-div {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4rem;
 }
 
 .btn-reg {
-    width: 0px;
+  width: 0px;
 }
