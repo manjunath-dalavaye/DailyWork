@@ -54,7 +54,7 @@ const Registration = () => {
       <div className="middle-div">
         <form onSubmit={handleSubmit}>
           <TextField
-            style={{ width: "400px", paddingRight: "20px" }}
+            style={{ width: "85%", paddingRight: "20px", maxWidth: "400px" }}
             label="Username"
             value={username}
             onChange={handleUsernameChange}
@@ -62,7 +62,7 @@ const Registration = () => {
             fullWidth
           />
           <TextField
-            style={{ width: "400px", paddingRight: "20px" }}
+            style={{ width: "85%", paddingRight: "20px", maxWidth:"400px" }}
             label="Password"
             value={password}
             onChange={handlePasswordChange}
@@ -71,7 +71,7 @@ const Registration = () => {
             fullWidth
           />
           <Button
-            style={{ width: "200px", marginTop: "17px", height: "50px" }}
+            style={{ width: "30%", marginTop: "17px", height: "50px", }}
             type="submit"
             variant="contained"
             color="primary"
