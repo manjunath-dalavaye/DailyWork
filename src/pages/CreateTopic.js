@@ -75,7 +75,7 @@ const CreateTopic = () => {
 
         <div>
           <TextField
-            style={{ marginBottom: "20px", width: "40rem" }}
+            style={{ marginBottom: "20px", width: "85%", paddingRight: "20px", maxWidth: "400px" }}
             id="standard-basic"
             label="Title"
             variant="standard"
@@ -84,7 +84,7 @@ const CreateTopic = () => {
           />{" "}
           <br />
           <TextField
-            style={{ width: "40rem", marginBottom: "20px" }}
+            style={{ marginBottom: "20px", width: "85%", paddingRight: "20px", maxWidth: "400px" }}
             multiline
             rows={8}
             label="Type here..."
