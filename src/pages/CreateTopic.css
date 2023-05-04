@@ -1,92 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap");
 
 .welcome-msg-ct {
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 4rem;
-    margin-bottom: 2rem
+  font-family: "Montserrat", sans-serif;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 400px) {
+  .welcome-msg-ct {
+    font-family: "Montserrat", sans-serif;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+  }
 }
 
 .sp2-ct {
-    font-size: 60px;
-    font-weight: 600;
-    margin-right: 2rem;
+  font-size: 60px;
+  font-weight: 600;
+  margin-right: 2rem;
 }
 
 .create-post {
-    margin-bottom: 2rem;
-    font-weight: 600;
+  margin-bottom: 2rem;
+  font-weight: 600;
 }
 
 .posts {
-    color: #379ADC;
-    font-size: 15px;
-    font-weight: 700;
-    cursor: pointer;
-    padding: 1rem;
-    border-radius: 5px;
+  color: #379adc;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 5px;
 }
 
 .logout {
-    color: #1C2833;
-    font-size: 15px;
-    font-weight: 700;
-    cursor: pointer;
-    padding: 1rem;
-    border-radius: 5px;
+  color: #1c2833;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 5px;
 }
 
 .posts:hover {
-    background-color: rgb(232, 230, 238);
+  background-color: rgb(232, 230, 238);
 }
 
 .your-place-at {
-    font-family: 'Montserrat', sans-serif;
-    margin-left: 4rem;
-    font-size: 20px;
-    font-weight: 700;
-
+  font-family: "Montserrat", sans-serif;
+  margin-left: 4rem;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .card-div {
-    display: flex;
-    flex-wrap:  wrap;
-    margin-left: 4rem;
-    margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 4rem;
+  margin-top: 2rem;
 }
 
 .card-container {
-    width: 300px;
-    height: 200px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 3rem;
-    margin-bottom: 2rem;
+  width: 300px;
+  height: 200px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 3rem;
+  margin-bottom: 2rem;
 }
 
 .card-container h3 {
-    padding: 1rem;
-    font-weight: 700;
+  padding: 1rem;
+  font-weight: 700;
 }
 
 .card-container p {
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-    padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
 }
 
 .post-container {
-    margin-left: 4rem;
-    margin-right: 4rem;
-    border-radius: 5px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .post-container h2 {
-    padding: 2rem;
-    font-weight: 700;
+  padding: 2rem;
+  font-weight: 700;
 }
 
 .post-container p {
-    padding: 2rem;
+  padding: 2rem;
 }
