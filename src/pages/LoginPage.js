@@ -25,7 +25,7 @@ const Login = () => {
       // fetch all users from Firebase
       let checkForLogin = false;
       const response = await axios.get(
-        "https://dailywork-f5b4a-default-rtdb.firebaseio.com/Users.json"
+        "FIREBASE_URL_USERS"
       );
       for (const parentObj in response.data) {
         const obj = response.data[parentObj];
