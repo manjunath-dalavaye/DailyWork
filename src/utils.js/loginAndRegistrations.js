@@ -1,5 +1,5 @@
 import axios from "axios"
-let baseUrl = "https://dailywork-f5b4a-default-rtdb.firebaseio.com/"
+let baseUrl = "FIREBASE_URL"
 
 const checkForUserPresent = async (passedUsername) => {
     const resp = await axios.get(`${baseUrl}/Users.json`)
