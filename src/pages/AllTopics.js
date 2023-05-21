@@ -20,7 +20,7 @@ const AllTopics = () => {
   const fetchPosts = async () => {
     try {
       const resp = await axios.get(
-        "https://dailywork-f5b4a-default-rtdb.firebaseio.com/Topics.json"
+        "FIREBASE_URL_FOR_POSTS"
       );
       let tempPosts = [];
       for (const parentObj in resp.data) {
