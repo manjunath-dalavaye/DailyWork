@@ -29,7 +29,7 @@ const Registration = () => {
         toast.warning("User Already exists");
       } else {
         const response = await axios.post(
-          "https://dailywork-f5b4a-default-rtdb.firebaseio.com/Users.json",
+          "FIREBASE_URL_USERs",
           {
             username: username,
             password: password,
