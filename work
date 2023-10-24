@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Work To-Do List</title>
+    <style>
+        ul {
+            list-style-type: none;
+        }
+        li {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Daily Work To-Do List</h1>
+    <div>
+        <input type="text" id="task" placeholder="Add a new task">
+        <button onclick="addTask()">Add Task</button>
+    </div>
+    <ul id="taskList">
+    </ul>
+
+    <script>
+        function addTask() {
+            const taskInput = document.getElementById('task');
+            const taskText = taskInput.value.trim();
+            if (taskText !== '') {
+                const taskList = document.getElementById('taskList');
+                const taskItem = document.createElement('li');
+                taskItem.innerHTML = taskText + ' <button onclick="removeTask(this)">Remove</button>';
+                taskList.appendChild(taskItem);
+                taskInput.value = '';
+            }
+        }
+
+        function removeTask(taskItem) {
+            taskItem.parentElement.remove();
+        }
+    </script>
+</body>
+</html>
